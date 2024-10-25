@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/mintypractice/static/js/main.94937a5c.js",
+    "main.js": "/mintypractice/static/js/main.16da3c42.js",
     "index.html": "/mintypractice/index.html",
-    "main.94937a5c.js.map": "/mintypractice/static/js/main.94937a5c.js.map"
+    "main.16da3c42.js.map": "/mintypractice/static/js/main.16da3c42.js.map"
   },
   "entrypoints": [
-    "static/js/main.94937a5c.js"
+    "static/js/main.16da3c42.js"
   ]
 }
