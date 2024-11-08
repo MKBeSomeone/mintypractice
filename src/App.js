@@ -1,24 +1,39 @@
-// App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import store from './store';
-import Home from './components/Home';
-import About from './components/About';
-import NotFound from './components/NotFound';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-const App = () => {
-  return (
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          <Route path="/mintypractice/" element={<Home />} />
-          <Route path="/mintypractice/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-    </Provider>
-  );
-};
+function App() {
+    return (
+        <Router basename="/mintypractice">
+            <div>
+                <nav>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
+                </nav>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="*" element={<NotFound />} /> {}
+                </Routes>
+            </div>
+        </Router>
+    );
+}
+
+function Home() {
+    return <h2>Home Page</h2>;
+}
+
+function About() {
+    return <h2>About Page</h2>;
+}
+
+function Contact() {
+    return <h2>Contact Page</h2>;
+}
+
+function NotFound() {
+    return <h2>404 - Page Not Found</h2>;
+}
 
 export default App;
