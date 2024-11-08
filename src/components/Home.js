@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 import "../App.css"
-import logo from '../mintLogo.png';
+import logo from '../mintLogo2.png';
 
 const Home = () => {
   return (
