@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/mintypractice/static/js/main.ec35cbcc.js",
+    "main.css": "/mintypractice/static/css/main.acc27c68.css",
+    "main.js": "/mintypractice/static/js/main.6f8b107f.js",
+    "static/media/mintLogo.png": "/mintypractice/static/media/mintLogo.15dcae6c67cca95d7018.png",
     "index.html": "/mintypractice/index.html",
-    "main.ec35cbcc.js.map": "/mintypractice/static/js/main.ec35cbcc.js.map"
+    "main.acc27c68.css.map": "/mintypractice/static/css/main.acc27c68.css.map",
+    "main.6f8b107f.js.map": "/mintypractice/static/js/main.6f8b107f.js.map"
   },
   "entrypoints": [
-    "static/js/main.ec35cbcc.js"
+    "static/css/main.acc27c68.css",
+    "static/js/main.6f8b107f.js"
   ]
 }
