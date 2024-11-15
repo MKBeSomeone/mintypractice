@@ -39,8 +39,14 @@
 
 .link-styles {
   padding: 0 30px;
+  background-color: coral;
 }
 
 h2{
   color:blue;
+}
+
+.link-styles:hover{
+  padding: 0 30px;
+  background-color: blue;
 }
